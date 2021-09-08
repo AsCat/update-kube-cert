@@ -18,7 +18,7 @@ kubeadm 生成的证书有效期为 1 年，该脚本可将 kubeadm 生成的证
 
 ```
 git clone https://github.com/yuyicai/update-kube-cert.git
-cd update-kubeadm-cert
+cd update-kube-cert
 chmod 755 update-kubeadm-cert.sh
 ```
 执行时请使用 `./update-kubeadm-cert.sh all` 或者 `bash update-kubeadm-cert.sh all` ，不要使用 `sh update-kubeadm-cert.sh all`，因为某些 Linux 发行版 sh 并不是链接到 bash，可能会不兼容  
